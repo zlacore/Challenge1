@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon Landing Page</title>
 </head>
 
 <body>
     <!--Changed several <div> elements to <section> elements for ease of reading (8/29/2024)-->
     <!--Added alt attributes to all images (8/29/2024)-->
-    <section class="header">
+    <!--Changed top <section> element to <header> element and changed nested <div> element to <nav> element (8/31/2024)-->
+    <!-- Fixed "Search Engine Optimization" link to navigate to proper heading (8/31/2024)-->
+    <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,11 +26,11 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </section>
+        </nav>
+    </header>
     <div class="hero"></div>
     <section class="content">
-        <div class="search-engine-optimization">
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A notebook on a table with the following words written around SEO: backlink, content, headings, link building, mobile compatibility, social media."/>
             <h2>Search Engine Optimization</h2>
             <p>
@@ -74,8 +76,9 @@
         </div>
     </section>
   <!-- Changed <div> element to <footer> element (8/29/2024)-->
+  <!-- Changed <h2> element to <h4> element to fit into logical descending order (8/31/2024)-->
     <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2024 Horiseon Social Solution Services, Inc.
         </p>
