@@ -8,3 +8,4 @@ In this challenge, I refactored some CSS code and made the website more readable
 ![Screenshot 2024-08-31 215139](https://github.com/user-attachments/assets/de593663-769d-4f19-9ad0-dffe77a0a37f)
 
 ## Deployed Application URL
+https://zlacore.github.io/ZLUMNBootcamp-Challenge1/#social-media-marketing
